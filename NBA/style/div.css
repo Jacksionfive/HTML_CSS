@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top {
+	background-image: url(../images/heard_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 165px;
+	width: 940px;
+
+}
+#top #wellcome {
+	float: left;
+	height: 88px;
+	width: 292px;
+	margin-left: 15px;
+	background-image: url(../images/logo.png);
+}
+
+#top #well {
+	background-color: #2B2625;
+	float: right;
+	width: 580px;
+	margin-top: 119px;
+	height: 40px;
+	margin-bottom: 4px;
+	overflow: hidden;
+}
+
+#well li {
+	float: left;
+	width: 80px;
+	text-align:center;
+	 position:relative; 
+	 background:#2B2625; 
+	 margin-right:1px;
+}
+#well li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#well li a:hover {
+	display: block;
+	width: 80px;
+	color: #fff;
+	text-decoration: none;
+	background: url(../images/menu_hover.jpg);
+	font-size: 16px;
+}
+
+
+#content {
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content #pro {
+	float: left;
+	width: 175px;
+}
+#content #pro .ai {
+	margin-left: 35px;
+}
+
+#content #pro ul {
+	height: 240px;
+	width: 130px;
+	margin-top: 5px;
+	
+}
+#content #pro ul li {
+	line-height: 25px;
+	text-indent: 20;
+	height: 25px;
+	width: 130px;
+	border: 1px dashed #7c7c7c;
+	margin-top: 5px;
+	background-color: #FCF;
+}
+#content #pro ul li a {
+	font-size: 14px;
+	color: #00F;
+}
+#content #pro ul li a:hover {
+	font-size: 16px;
+	color: #F0F;
+}
+
+
+#content #about {
+	float: left;
+	width: 580px;
+	margin-right: 5px;
+	height: 380px;
+}
+#content #about .nba b {
+	color: #F00;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	height: 20px;
+	width: 400px;
+}
+#content #about .char {
+	font-size: 16px;
+	color: #7c7c7c;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#content #news {
+	float: left;
+	width: 178px;
+}
+#content #news ul {
+	width: 176px;
+	float: left;
+}
+#content #news ul li {
+	display: block;
+	height: 23px;
+	font-size: 14px;
+	overflow: hidden;
+}
+#content #news ul li a {
+	float: left;
+	color: #00F;
+}
+#content #news ul li a:hover {
+	font-size: 16px;
+	color: #0F0;
+}
+
+#content #news ul li span b {
+	float: left;
+
+}
+#content #about .img img {
+	float: left;
+	margin-left: 15px;
+}
+#content #news #ke li span b {
+	font-size: 14px;
+	overflow: hidden;
+}
+#content #left_content {
+	float: left;
+	height: 380px;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#content #right_content {
+	height: 380px;
+	width: 760px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	float: right;
+}
+#tu_nav {
+	width: 700px;
+	margin-top: 10px;
+}
+#tu_nav .tu_right {
+	float: left;
+	margin-left: 5px;
+}
+#tu_nav .tu_right b {
+	color: #7c7c7c;
+}
+#tu_nav .tu_right .kuli {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#tu_nav .tu_right b {
+	font-size: 14px;
+}
+#dui {
+	width: 940px;
+	height: 141px;
+}
+#tu_nav .tu_left span {
+	font-size: 14px;
+	color: #7c7c7c;
+}
+#tu_nav .tu_right span {
+	font-size: 14px;
+	color: #7c7c7c;
+}
+
+
+
+
+
+
+
+#tu_nav .tu_left .dulante {
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#tu_nav .tu_left {
+	float: left;
+	width: 350px;
+	margin-right: 5px;
+}
+#tu_nav .tu_left b {
+	color: #7c7c7c;
+	font-size: 14px;
+}
+#zixun {
+	width: 940px;
+}
+#zixun .left_zi {
+	width: 360px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#star {
+	width: 940px;
+}
+#star .left_star {
+	float: left;
+	margin-top: 25px;
+	margin-right: 15px;
+}
+#star .right_star {
+	width: 500px;
+	float: left;
+	height: 395px;
+	margin-top: 40px;
+	margin-left: 10px;
+	background-image: url(../images/2010022723441785457_%E5%89%AF%E6%9C%AC.jpg);
+	background-repeat: no-repeat;
+}
+#star .right_star ul {
+	float: left;
+	margin-top: 50px;
+}
+#star .right_star ul li span b {
+	font-size: 18px;
+	color: #00F;
+}
+#star .right_star ul li a {
+	font-size: 14px;
+	color: #00F;
+}
+#star .right_star ul li a：hover {
+	font-size: 16px;
+	color: #999;
+}
+
+
+
+#star .right_star ul li {
+	display: block;
+	height: 30px;
+	width: 100px;
+	overflow: hidden;
+}
+#champion {
+	width: 940px;
+	padding-top: 15px;
+	height: 400px;
+}
+#champion .left .logo img {
+	margin-top: 80px;
+}
+
+#champion .left {
+	float: left;
+	width: 400px;
+	padding-left: 20px;
+}
+#champion .left .logo {
+	background-image: url(../images/mp35005918_1444471026127_4_%E5%89%AF%E6%9C%AC.jpg);
+	background-repeat: no-repeat;
+	text-decoration: line-through;
+	padding-left: 10px;
+	margin-top: 50px;
+}
+#champion .right {
+	float: left;
+	width: 500px;
+}
+#champion .right ul li {
+	background-color: #FF0;
+	display: block;
+	height: 60px;
+	width: 250px;
+	font-size: 16px;
+}
+
+
+
+#champion .left span {
+	font-size: 16px;
+	color: #7c7c7c;
+}
+#champion .right ul li span b {
+	font-size: 36px;
+	color: #000;
+}
+#me {
+	width: 940px;
+	height: 225px;
+}
+#me ul li {
+	display: block;
+	margin-top: 30px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #333333;
+}
+#me ul li span b {
+	font-size: 18px;
+	color: #333;
+}
